@@ -1,7 +1,6 @@
 # Rapids Masternode Setup Guide
 
 This guide assumes that you will setup so called COLD Masternode, where the server process is running on a remote Linux system (usually a rented VPS), and your funds are kept safely in your local offline wallet.
-Local wallet (collateral transfer)
 
 # Local wallet (collateral transfer)
 First, you need to make a transaction collateral of exactly 10000000 (10Million) coins. It should be kept untouched to receive masternode rewards.
@@ -31,7 +30,7 @@ Then you should have a script output similar to this one:
 
 The most important thing is the green line with the data you have to put into your local wallet. So let's go back to it to finalise the setup.
 
-#Local wallet (masternode start)
+# Local wallet (masternode start)
 
 First you should edit a masternode configuration file which is located in the coin data directory. On Windows it is in the "%APPDATA%/rapids" directory. But you may simply use Tools → **Open Masternode Configuration** File to edit it.
 
