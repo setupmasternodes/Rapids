@@ -30,3 +30,27 @@ Then you should have a script output similar to this one:
 ![mnsetupready](https://raw.githubusercontent.com/awsafrica/Rapids/master/contrib/masternodes/mnsetupready.jpg)
 
 The most important thing is the green line with the data you have to put into your local wallet. So let's go back to it to finalise the setup.
+
+#Local wallet (masternode start)
+
+First you should edit a masternode configuration file which is located in the coin data directory. On Windows it is in the "%APPDATA%/rapids" directory. But you may simply use Tools → **Open Masternode Configuration** File to edit it.
+
+* Copy the green line starting from mn1 from your Linux console and paste it into the end of masternode.conf file you just opened.
+* Replace your-tx-hash and your-tx-index with the data from masternode outputs command you got earlier.
+* Close editor and save the file.
+* Close and restart your wallet.
+* After restart ensure you have at least 15 confirmations of your collateral transaction. If you have less - please wait, or your masternode will not start.
+* If you have the Masternodes tab - switch to it. If not, open wallet preferences and enable Masternodes tab from there.
+* Click Start All button to start your masternode.
+
+Now your masternode should be running.
+
+You may go to the Linux console and type there:
+``rapids-cli masternode status``
+
+If it shows:
+
+``Masternode successfully started``
+
+You should be fine and start receiving awards. The first award may be granted in an 1 to 24 hours depending on the number of masternodes in the network.
+
