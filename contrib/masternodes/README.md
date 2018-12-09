@@ -5,7 +5,7 @@ This guide assumes that you will setup so called COLD Masternode, where the serv
 # Local wallet (collateral transfer)
 First, you need to make a transaction collateral of exactly 10000000 (10Million) coins. It should be kept untouched to receive masternode rewards.
 
-* Start the Brixcoin wallet and wait for it to complete the blockchain synchronisation.
+* Start the Rapids wallet and wait for it to complete the blockchain synchronisation.
 * Open Menu → **Receiving addresses**... and create a new address with label MN1 (or any one you like). Copy this address to the clipboard.
 * Send exactly 10000000 (10Million) RPD coins in a single transaction to the account address you generated in the previous step. This may be sent from another wallet, or from funds already held in your current wallet.
 * Wait for at least 1 transaction confirmation.
