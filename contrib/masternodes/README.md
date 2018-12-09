@@ -42,7 +42,7 @@ First you should edit a masternode configuration file which is located in the co
 * If you have the Masternodes tab - switch to it. If not, open wallet preferences and enable Masternodes tab from there.
 * Click Start All button to start your masternode.
 
-Now your masternode should be running.
+## Now your masternode should be running.
 
 You may go to the Linux console and type there:
 ``rapids-cli masternode status``
